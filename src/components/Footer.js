@@ -5,11 +5,13 @@ const Footer = () => {
   return (
     <footer style={footer}>
       <Container style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <Navbar.Brand href='/' style={{ color: 'white' }}>
-          Random User App
-        </Navbar.Brand>
+        <div>
+          <h6 href='/' style={{ color: 'white' }}>
+            Random User App
+          </h6>
+        </div>
         <div style={{ color: 'white' }}>
-          <p>CopyRight {new Date().getUTCFullYear()}</p>
+          <h6>CopyRight {new Date().getUTCFullYear()}</h6>
         </div>
       </Container>
     </footer>
