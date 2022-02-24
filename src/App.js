@@ -39,7 +39,7 @@ const App = () => {
         <FilterButtons handleMale={handleMale} handleFemale={handleFemale} />
         <Row xs={2} md={3} lg={6} className='g-4'>
           {isLoading ? (
-            <Spinner animation='border' role='status' style={{justifyContent: 'center', margin: 'auto'}}>
+            <Spinner animation='border' role='status' style={{margin: '30% auto'}}>
               <span className='visually-hidden'>Loading...</span>
             </Spinner>
           ) : (
